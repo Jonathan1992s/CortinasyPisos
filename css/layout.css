@@ -286,7 +286,7 @@ html,body{
     display: none;
 	width:100%;
 	z-index:1000;
-	background:rgba(40,40,40,.9);
+	background:white;
 	top:0;
 	left:0;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.6);
@@ -301,8 +301,8 @@ html,body{
 	z-index:10000;
 	left:40px;
 	top:5px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:100px 50px;
+	
+	
 }
 
 @media only screen and (max-width: 800px) {
@@ -311,8 +311,7 @@ html,body{
 	top:5px;
 	width:90px;
 	height:40px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:90px 40px;
+	
 }
 }
 
@@ -389,7 +388,7 @@ ul.slimmenu > li:first-child { border-left: 0 }
 ul.slimmenu > li:last-child { margin-right: 0 }
 ul.slimmenu li a {
     display: block;
-    color: #fff;
+    color: black;
     padding: 10px 0px;
     margin: 0px 12px;
 	font-family: 'OpenSans-Light-webfont';
@@ -1008,10 +1007,7 @@ ul.slimmenu.collapsed li > ul {
 	padding-top:50px;
 	padding-bottom:50px;
 }
-.footer img{
-	width:102px;
-	height:30px;
-}
+
 
 
 .footer p{
