@@ -24,15 +24,20 @@
     <link rel="stylesheet" href="css/jquery.custombox.css">
     <link rel="stylesheet" href="css/YTPlayer.css">
     <link rel="stylesheet" href="css/retina.css">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-orange.css"
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-orange.css"
+
       title="orange">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-green.css"
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-green.css"
+
       title="green">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-red.css"
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-red.css"
+
       title="red">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-blue.css"
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-blue.css"
+
       title="blue">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-yellow.css"
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color-yellow.css"
+
       title="yellow">
     <!--[if lte IE 8]>
         <script src="js/html5.js"></script>    <![endif]-->
@@ -48,19 +53,30 @@
 	================================================== -->
     <div id="preloader"></div>
     <div id="menu-wrap">
-      <div class="logo"> </div>
-      <ul class="slimmenu">
-        <img src="images/logo_dealer.png" alt="auto">
-        <li> <a href="#home" class="scroll">INICIO</a> </li>
-        <li> <a href="#about" class="scroll">NOSOTROS</a> </li>
-        <li> <a href="#services" class="scroll">SERVICIOS</a> </li>
-        <li> <a href="#folio" class="scroll">CATÁLOGO</a> </li>
-        <li> <a href="#contact" class="scroll">CONTACTO</a> </li>
-      </ul>
+      <div class="logo">
+        <table width="100%">
+          <tbody>
+            <tr>
+              <td> <img src="images/LOGO0.png" height="40px" width="auto"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <ul class="slimmenu">
+          <li> <a href="#home" class="scroll">INICIO</a> </li>
+          <li> <a href="#about" class="scroll">NOSOTROS</a> </li>
+          <li> <a href="#services" class="scroll">SERVICIOS</a> </li>
+          <li> <a href="#folio" class="scroll">CATÁLOGO</a> </li>
+          <li> <a href="#contact" class="scroll">CONTACTO</a> </li>
+        </ul>
+      </div>
     </div>
     <div id="home">
-      <div class="background-grid" style="background-color: black;"> <video autoplay="autoplay"
-          muted="muted" height="100%" width="100%"> <source src="images/video.mp4"
+      <div class="background-grid" style="background-color: black;"> <video autoplay="autoplay"
+
+          muted="muted" height="100%" width="100%"> <source src="images/video.mp4"
+
             type="video/mp4"> </video> </div>
       <div class="home-text">
         <p><span>Los mejores en Diseño - Precio - Estilo </span></p>
@@ -76,7 +92,7 @@
           </div>
         </div>
         <div class="link-home">
-          <div class="cl-effect-14"><a href="#folio" class="scroll">CATÁLOGO</a></div>
+          <div class="cl-effect-14"><a href="#folio" class="scroll" style="color: white; background-color: #3498db!important;">CATÁLOGO</a></div>
         </div>
       </div>
     </div>
@@ -113,43 +129,26 @@
         </div>
       </div>
     </div>
-    <div id="skills">
-      <div class="container"><span style="color: black;"> </span>
-        <div class="sixteen columns">
-          <h1>Nos especializamos en</h1>
-        </div>
-        <span style="color: black;"> </span>
-        <div class="sixteen columns"> </div>
-        <span style="color: black;"> </span>
+    <div class="blog-wrap post2">
+      <div class="container">
         <div class="eight columns">
-          <ul class="skill">
-            <li><span style="color: black;"><span class="bar bar-prc1"></span></span>
-              <p><span style="color: black;">Cortinas</span></p>
-            </li>
-            <li><span style="color: black;"><span class="bar bar-prc2"></span></span>
-              <p><span style="color: black;">Persianas</span></p>
-            </li>
-            <li><span style="color: black;"><span class="bar bar-prc3"></span></span>
-              <p><span style="color: black;">Toldos</span></p>
-            </li>
+          <ul class="slider5">
+            <li> <img src="images/gallery/12.jpg" alt=""> </li>
+            <li> <img src="images/gallery/13.jpg" alt=""> </li>
+            <li> <img src="images/gallery/7.jpg" alt=""> </li>
           </ul>
         </div>
-        <span style="color: black;"> </span>
-        <div class="eight columns"><span style="color: black;"> </span>
-          <ul class="skill">
-            <span style="color: black;"> </span>
-            <li><span style="color: black;"><span class="bar bar-prc4"></span></span>
-              <p><span style="color: black;">Piso Flotante</span></p>
-            </li>
-            <span style="color: black;"> </span>
-            <li><span style="color: black;"><span class="bar bar-prc5"></span></span>
-              <p><span style="color: black;">Porcelanato</span></p>
-            </li>
-            <span style="color: black;"> </span>
-            <li><span style="color: black;"><span class="bar bar-prc6"></span></span>
-              <p><span style="color: black;">Puertas Plegables</span></p>
-            </li>
-          </ul>
+        <div class="eight columns">
+          <h6>Contamos con:</h6>
+          <div class="blog-date"><span><img src="images/logo_dealer.png" style="width: 267px; height: 38px;"></span></div>
+          <p style="text-align: justify;">HunterDouglas® Es líder en el mercado
+            de Cortinas, tenemos soluciones innovadoras que ofrecen infinitas
+            posibilidades. Todas nuestras Cortinas, Persianas y Toldos, poseen
+            un novedoso y moderno estilo además, están diseñadas pensando en la
+            seguridad de los niños. Entregamos innovadoras soluciones pensadas
+            en la seguridad infantil y en las mascotas del hogar.</p>
+          <div class="blog-tag"><a href="#">Cotiza con un click !! </a></div>
+          <div class="clear"></div>
         </div>
       </div>
     </div>
@@ -162,9 +161,8 @@
           <div class="sep"></div>
         </div>
         <div class="sixteen columns">
-          <p>Venta, Instalación Y Mantenimiento De Cortinas / Persianas / Toldos
-            / Pisos Flotantes / Puertas Plegables / Cerámica / Porcelanato /
-            Alfombras.</p>
+          <p>Servicios de Instalación y Mantenimiento de Cortinas, Pisos
+            Flotantes, Puertas Plegables, Cerámicas, Porcelanatos y Alfombras</p>
         </div>
       </div>
       <div id="services-wrapper">
@@ -182,7 +180,7 @@
               <div class="services-wrap-icon"> <img src="images/ser2.png" alt="">
               </div>
               <h6>Mantenimiento</h6>
-              <p>Estaremos gustosos en brindarte y encontrar la mejor solución.</p>
+              <p>Conserva tus cortinas en buen estado y evita su degradación.</p>
             </div>
           </div>
           <div class="four columns">
@@ -190,7 +188,8 @@
               <div class="services-wrap-icon"> <img src="images/ser3.png" alt="">
               </div>
               <h6>Limpieza</h6>
-              <p>Ayuda a alargar la vida util de tus cortinas y persianas.</p>
+              <p>Elimina la suciedad, polvo y manchas que puedan tener tus
+                cortinas por el tiempo de uso.</p>
             </div>
           </div>
           <div class="four columns">
@@ -198,19 +197,18 @@
               <div class="services-wrap-icon"> <img src="images/ser4.png" alt="">
               </div>
               <h6>Cortinas Motorizadas Inteligentes</h6>
-              <p>Control mediante mando o voz.</p>
+              <p>Disponemos de controles inalámbricos y comandos de voz.</p>
             </div>
           </div>
         </div>
       </div>
-      <div id="folio" style="height: 4323px;">
+      <div id="folio">
         <div class="container">
           <div class="sixteen columns">
             <h1>CATÁLOGO</h1>
           </div>
           <div class="sixteen columns">
             <div class="sep"></div>
-            <h5>Ahora cotiza tu producto con un click !!</h5>
           </div>
         </div>
         <div class="clear"></div>
@@ -219,24 +217,29 @@
             <div id="portfolio-filter">
               <ul id="filter">
                 <li>
-                  <div class="cl-effect-14"><a href="#" data-filter=".cortinas"
-                      title="">Cortinas</a></div>
+                  <div class="cl-effect-14"><a href="#" data-filter=".cortinas"
+
+                      title="">Cortinas</a> </div>
                 </li>
                 <li>
-                  <div class="cl-effect-14"><a href="#" data-filter=".photography"
-                      title="">Persianas</a></div>
+                  <div class="cl-effect-14"><a href="#" data-filter=".photography"
+
+                      title="">Persianas</a> </div>
                 </li>
                 <li>
-                  <div class="cl-effect-14"><a href="#" data-filter=".illustration"
-                      title="">Toldos</a></div>
+                  <div class="cl-effect-14"><a href="#" data-filter=".illustration"
+
+                      title="">Toldos</a> </div>
                 </li>
                 <li>
-                  <div class="cl-effect-14"><a href="#" data-filter=".motion-graphics"
+                  <div class="cl-effect-14"><a href="#" data-filter=".motion-graphics"
+
                       title="">Piso Flotante</a></div>
                 </li>
                 <li>
-                  <div class="cl-effect-14"><a href="#" data-filter=".web-design"
-                      title="">Porcelanato</a></div>
+                  <div class="cl-effect-14"><a href="#" data-filter=".web-design"
+
+                      title="">Porcelanato</a> </div>
                 </li>
                 <li>
                   <div class="cl-effect-14"><a href="#" data-filter=".Puertas" title="">Puertas
@@ -249,224 +252,221 @@
         <div class="clear"></div>
         <div class="container">
           <div class="all-works">
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ENROLLABLE SCREEN</h6>
                 </div>
                 <img src="images/gallery/1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ENROLLABLE TRASLUCIDA</h6>
                 </div>
                 <img src="images/gallery/2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ENROLLABLE BLACKOUT</h6>
                 </div>
                 <img src="images/gallery/3.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ROMANA SCREEN</h6>
                 </div>
                 <img src="images/gallery/4.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a class="iframe group1"
-                href="project.html" title="">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ROMANA BLACKOUT</h6>
                 </div>
                 <img src="images/gallery/5.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>TRIPLE SHADE</h6>
                 </div>
                 <img src="images/gallery/6.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>PANELADA</h6>
                 </div>
                 <img src="images/gallery/7.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>ZEBRA</h6>
                 </div>
                 <img src="images/gallery/8.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work cortinas"> <a href="https://bit.ly/3EYFojh">
+            <div class="one-third column one-work cortinas"> <a>
                 <div class="work-text">
                   <h6>TELA CLASICA</h6>
                 </div>
                 <img src="images/gallery/9.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  illustration"> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work  illustration"> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/14.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work illustration"> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work illustration"> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/11.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work illustration"> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work illustration"> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/12.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work illustration"> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work illustration"> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/13.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work illustration "> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work illustration "> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/15.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work illustration"> <a href="https://bit.ly/32M841Y">
+            <div class="one-third column one-work illustration"> <a>
                 <div class="work-text">
                   <h6>TOLDOS</h6>
                 </div>
                 <img src="images/gallery/16.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work motion-graphics"> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work motion-graphics"> <a>
                 <div class="work-text">
                   <h6>PISO FLOTANTE BISELADO 1</h6>
                 </div>
                 <img src="images/gallery/P1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work motion-graphics "> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work motion-graphics "> <a>
                 <div class="work-text">
                   <h6>PISO FLOTANTE BISELADO 2</h6>
                 </div>
                 <img src="images/gallery/P2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  motion-graphics"> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work  motion-graphics"> <a>
                 <div class="work-text">
                   <h6>Marcas Alemanas y Suizas</h6>
                 </div>
                 <img src="images/gallery/M1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work motion-graphics"> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work motion-graphics"> <a>
                 <div class="work-text">
                   <h6>PISO FLOTANTE SIN BISEL 1</h6>
                 </div>
                 <img src="images/gallery/PF1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work motion-graphics"> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work motion-graphics"> <a>
                 <div class="work-text">
                   <h6>PISO FLOTANTE SIN BISEL 2</h6>
                 </div>
                 <img src="images/gallery/PF2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work motion-graphics"> <a href="https://bit.ly/3eTeWgh">
+            <div class="one-third column one-work motion-graphics"> <a>
                 <div class="work-text">
                   <h6>Marcas con Tecnología Alemana</h6>
                 </div>
                 <img src="images/gallery/M2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Horizontales de Madera</h6>
                 </div>
                 <img src="images/gallery/s1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Horizontales de Aluminio</h6>
                 </div>
                 <img src="images/gallery/s2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work  photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Verticales</h6>
                 </div>
                 <img src="images/gallery/10.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work  photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Horizontales de Madera</h6>
                 </div>
                 <img src="images/gallery/28.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work  photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Horizontales de Aluminio</h6>
                 </div>
                 <img src="images/gallery/29.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work  photography"> <a href="https://bit.ly/3eQTZ5A">
+            <div class="one-third column one-work  photography"> <a>
                 <div class="work-text">
                   <h6>Persianas Verticales</h6>
                 </div>
                 <img src="images/gallery/30.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/22.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/23.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/24.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/25.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/26.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/27.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/c1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/c2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work web-design"> <a href="https://bit.ly/3zr2PAu">
+            <div class="one-third column one-work web-design"> <a>
                 <div class="work-text">
                   <h6>PORCELANATO</h6>
                 </div>
                 <img src="images/gallery/c3.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp1.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp2.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp3.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp4.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp5.jpg" alt=""> </a> </div>
-            <div class="one-third column one-work Puertas"> <a href="https://bit.ly/3t0MhOr">
+            <div class="one-third column one-work Puertas"> <a>
                 <div class="work-text">
                   <h6>PUERTAS PLEGABLES</h6>
                 </div>
                 <img src="images/gallery/pp6.jpg" alt=""> </a> </div>
           </div>
         </div>
-        <div class="link-home">
-          <div class="cl-effect-14"><span style="color: black;"><a href="#folio"
-                class="scroll"><span style="color: black;">COTIZA CON UN CLICK !!</span>
-              </a></span></div>
-        </div>
+        <div> <a href="https://bit.ly/3zEZUnL" target="_blank" style="color: white; background-color: #3498db!important;padding: 7px; padding-left: 10px;padding-right: 10px"><span>Ahora
+              cotiza tu producto con un click !!</span></a> </div>
+        <br>
       </div>
     </div>
     <br>
@@ -504,7 +504,8 @@
         <div class="sixteen columns">
           <h3>GOOGLE MAPS</h3>
           <br>
-          <iframe src="https://www.google.com/maps/embed?pb=%211m14%211m8%211m3%211d3989.7942914933633%212d-78.4357529%213d-0.198851%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x0%3A0xbd003ab4ea78e625%212sPersiancort%215e0%213m2%211ses%212sec%214v1641430661169%215m2%211ses%212sec"
+          <iframe src="https://www.google.com/maps/embed?pb=%211m14%211m8%211m3%211d3989.7942914933633%212d-78.4357529%213d-0.198851%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x0%3A0xbd003ab4ea78e625%212sPersiancort%215e0%213m2%211ses%212sec%214v1641430661169%215m2%211ses%212sec"
+
             style="border:0;" allowfullscreen="" loading="lazy" height="450" width="100%"></iframe>
         </div>
         <div class="sixteen columns">
@@ -514,8 +515,8 @@
     </div>
     <div class="footer">
       <div class="container">
-        <div class="sixteen columns"> <a href="#home" class="scroll"><img src="images/logo.png"
-              alt=""></a> </div>
+        <div> <a href="#home"> <img src="images/logoab0.png" height="40px" width="auto"></a>
+        </div>
         <div class="sixteen columns">
           <p><span>© Arevalo Cortinas-Pisos-Persianas</span> 2021</p>
         </div>
@@ -531,7 +532,8 @@
         </div>
       </div>
     </div>
-    <div id="modal" style="display: none;" class="modal-example-content"> <button
+    <div id="modal" style="display: none;" class="modal-example-content"> <button
+
         type="button" class="close" onclick="$.fn.custombox('close');">×</button>
       <div class="container">
         <div class="sixteen columns">
@@ -556,7 +558,8 @@
         </div>
       </div>
     </div>
-    <div id="modal1" style="display: none;" class="modal-example-content"> <button
+    <div id="modal1" style="display: none;" class="modal-example-content"> <button
+
         type="button" class="close" onclick="$.fn.custombox('close');">×</button>
       <div class="container">
         <div class="sixteen columns">
@@ -581,7 +584,8 @@
         </div>
       </div>
     </div>
-    <div id="modal2" style="display: none;" class="modal-example-content"> <button
+    <div id="modal2" style="display: none;" class="modal-example-content"> <button
+
         type="button" class="close" onclick="$.fn.custombox('close');">×</button>
       <div class="container">
         <div class="sixteen columns">
@@ -606,7 +610,8 @@
         </div>
       </div>
     </div>
-    <div id="modal3" style="display: none;" class="modal-example-content"> <button
+    <div id="modal3" style="display: none;" class="modal-example-content"> <button
+
         type="button" class="close" onclick="$.fn.custombox('close');">×</button>
       <div class="container">
         <div class="sixteen columns">
