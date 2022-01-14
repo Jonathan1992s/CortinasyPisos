@@ -437,7 +437,7 @@ $(".group1").colorbox({rel:'group1'});
 //Google map	
 	
 /*global $:false */
-    var map;
+  /*  var map;
     $(document).ready(function(){"use strict";
       map = new GMaps({
     disableDefaultUI: true,
@@ -503,7 +503,7 @@ $(".group1").colorbox({rel:'group1'});
         map.setStyle("map_style");	  
     });		
 	
-
+*/
 
 
 
